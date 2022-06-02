@@ -1,9 +1,10 @@
 if !oPlayer.Staggered
-{
+{	
 	if MoveBack
 	{
 		move_towards_point(p.x,p.y,5);	
 	}
+	
 }
 else
 {

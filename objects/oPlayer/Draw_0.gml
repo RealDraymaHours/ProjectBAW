@@ -78,6 +78,16 @@ switch (state) {
 			}
 		}
 	break;
+	case("CHARGE"):
+		if charge <= 40
+		{
+			sprite_index = sPlayerBaseCharging;
+		}
+		else
+		{	
+			sprite_index = sPlayerBaseCharged;
+		}
+	break;
 	case "CHARGEATTACK":
 		if ComboCounter != -1
 		{

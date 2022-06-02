@@ -1,5 +1,5 @@
 /// @description Combo's
-if IsActive
+if ((IsActive) && (state != "CHARGE"))
 {
 	if ComboEnd()
 	{
@@ -18,13 +18,18 @@ if IsActive
 		state = "IDLE";
 		alarm[2] = 30;
 	}
-	
+
+}
+else
+{
 	if state == "CHARGEATTACK"
 	{
 		ComboForceEnd();	
 		state = "IDLE";
+		IsActive = false;
+		charge = 0;
 		image_index = 0;
-	}
+	}	
 }
 
 if ((state == "PARRY") || (state == "PARRIED"))

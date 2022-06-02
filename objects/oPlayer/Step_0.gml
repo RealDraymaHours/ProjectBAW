@@ -13,7 +13,7 @@ kJumpRelease = keyboard_check_released(kMyJump);
 kDash		 = keyboard_check(kMyDash);
 kParry		 = keyboard_check_pressed(kMyParry);
 
-kAttackHold = keyboard_check(kMyAttackLight);
+kAttackHold = keyboard_check_pressed(kMyAttackLight);
 kAttack = keyboard_check_released(kMyAttackLight);
 
 kGrab = keyboard_check(ord("D"));
@@ -321,7 +321,7 @@ else
 				IsAttacking = true;
 				charge += 1;
 			
-				if (charge >= 40)
+				if ((kAttack) && (charge >= 40))
 				{
 					state = "CHARGEATTACK";
 					ComboAdd(3,1);	

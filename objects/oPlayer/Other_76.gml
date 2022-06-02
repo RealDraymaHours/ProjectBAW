@@ -17,7 +17,7 @@ if event_data[?"event_type"] == "sprite event"
 		
 			hitbox = instance_create(x,y,oPDZ);
 			hitbox.sprite_index = sPlayerBaseCombo1Hitbox;
-			hitbox.image_xscale = image_xscale;
+			hitbox.image_xscale = image_xscale * facing;
 			hitbox.alarm[0] = 10;
 			
 
