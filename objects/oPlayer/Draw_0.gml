@@ -12,6 +12,8 @@ sBase1 = sPlayerBaseCombo1;
 sBase2 = sPlayerBaseCombo2;
 sBase3 = sPlayerBaseCombo3;
 
+sChargeAttack = sPlayerBaseChargedAttack;
+
 sGroundUp = sPlayerBaseCombo1;
 sAirUp = sPlayerBaseCombo1;
 
@@ -57,6 +59,14 @@ switch (state) {
 		sprite_index = sStaggered;
 	break;
 	case "ATTACK":
+		if !onGround
+		{
+			image_speed = 1.5;
+		}
+		else
+		{
+			image_speed = 1;	
+		}
 		if ComboCounter != -1
 		{
 			switch(ComboArray[ComboCounter])
@@ -91,7 +101,7 @@ switch (state) {
 	case "CHARGEATTACK":
 		if ComboCounter != -1
 		{
-			sprite_index = sBase1;
+			sprite_index = sChargeAttack;
 		}
 	break;
 	case("HOOK"):
@@ -134,8 +144,8 @@ if(flashAlpha > 0)
 	shader_reset();
 }
 
-draw_text_color(x,y-30,state,c_white,c_white,c_white,c_white,1);
-draw_text_color(x,y-20,charge,c_white,c_white,c_white,c_white,1);
+//draw_text_color(x,y-30,state,c_white,c_white,c_white,c_white,1);
+//draw_text_color(x,y-20,charge,c_white,c_white,c_white,c_white,1);
 
 
 

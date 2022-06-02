@@ -8,3 +8,5 @@ flashAlpha = 0;
 
 KnockbackDirection = 0;
 KnockbackStrenght = 0;
+
+state = "IDLE";

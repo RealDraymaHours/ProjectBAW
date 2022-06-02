@@ -329,6 +329,8 @@ else
 					charge = 0;
 					ComboCounter++;
 					IsActive = true;
+					
+					logic_attack_charge()
 				}
 				else if kAttack
 				{				
@@ -338,6 +340,7 @@ else
 					charge = 0;
 					ComboCounter++;
 					IsActive = true;
+					logic_attack();
 				}	
 		break;
 		case("CHARGEATTACK"):
