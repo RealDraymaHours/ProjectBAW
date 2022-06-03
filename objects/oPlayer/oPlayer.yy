@@ -5,6 +5,7 @@
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": {
     "name": "sPlayerHitbox",
     "path": "sprites/sPlayerHitbox/sPlayerHitbox.yy",

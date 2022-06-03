@@ -11,7 +11,7 @@ sParry = sPlayerParry;
 //Abilities
 Parry = false;
 flashAlpha = 0;
-Weapon = "Cyan";
+Weapon = "Weapon";
 Knockback = false;
 IsActive = false;
 charge = 0;

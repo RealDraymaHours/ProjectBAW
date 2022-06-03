@@ -1,7 +1,7 @@
 #region CONTROLS
 // Declare Temp Variables /////////////////////////////////////////////////////
-var kLeft, kRight, kUp, kDown, kJump, kJumpRelease, tempAccel, tempFric;
-var  kAttack, kDash, kRageArt,kAttackReleased, kParry, kGrab, kAttackHold;
+//var kLeft, kRight, kUp, kDown, kJump, kJumpRelease, tempAccel, tempFric;
+//var  kAttack, kDash, kRageArt, kParry, kGrab, kAttackHold;
 ///////////////////////////////////////////////////////////////////////////////
 // Input //////////////////////////////////////////////////////////////////////
 kLeft        = keyboard_check(kMyLeft);
@@ -11,14 +11,14 @@ kDown        = keyboard_check(kMyDown);
 kJump        = keyboard_check_pressed(kMyJump);
 kJumpRelease = keyboard_check_released(kMyJump);
 kDash		 = keyboard_check(kMyDash);
-kParry		 = keyboard_check_pressed(kMyParry);
+//kParry		 = keyboard_check_pressed(kMyParry);
 
 kAttackHold = keyboard_check_pressed(kMyAttackLight);
 kAttack = keyboard_check_released(kMyAttackLight);
 
 kGrab = keyboard_check(ord("D"));
 
-kRageArt     = keyboard_check(kMyRageArt);
+//kRageArt     = keyboard_check(kMyRageArt);
 #endregion
 
 if ((!Staggered) && (!IsActive))
@@ -236,73 +236,7 @@ if ((!Staggered) && (!IsActive))
 		//Dashing
 	if(kDash) 
 	{
-		if CanDash
-		{
-			IsActive = true;
-			Parry = false;
-			state = "DASH";
-			mask_index = sprite_index;
-			if(kUp)
-			{
-				dir = point_direction(x,y,x,y - 20);	
-			
-				repeat(10)
-				{
-					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
-			           direction = 90 + random_range(-45, 45); 
-				}
-			}
-			else if (kDown)
-			{
-				dir = point_direction(x,y,x,y + 20);
-	
-				repeat(10)
-				{
-					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
-			           direction = 90 + random_range(-45, 45); 
-				}
-			}
-			else if (kLeft)
-			{
-				dir = point_direction(x,y,x - 20,y);	
-				repeat(10)
-				{
-					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
-			         direction = 180 + random_range(-45, 45); 
-				}
-			}
-			else if (kRight)
-			{
-				dir = point_direction(x,y,x + 20,y);	
-				repeat(10)
-				{
-					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
-			        direction = 0 + random_range(-45, 45); 
-				}
-			}
-			else
-			{
-				if facing == RIGHT
-				{
-					dir = point_direction(x,y,x + 20,y);
-					repeat(10)
-					{
-						with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
-						direction = 0 + random_range(-45, 45); 
-					}
-				}
-				else
-				{
-					dir = point_direction(x,y,x - 20,y);
-					repeat(10)
-					{
-						with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
-					    direction = 180 + random_range(-45, 45); 
-					}
-				}
-			}
-		
-		}
+		player_dash();
 	}
 #endregion
 }
@@ -342,6 +276,14 @@ else
 					IsActive = true;
 					logic_attack();
 				}	
+				
+				if(kDash) 
+				{
+					image_index = 0;	
+					charge = 0;
+					ComboCounter++;
+					player_dash();
+				}
 		break;
 		case("CHARGEATTACK"):
 			h = 0;
@@ -454,5 +396,76 @@ if (flashAlpha > 0)
 	flashAlpha -= 0.1;	
 }
 	
+function player_dash()
+{
+		if CanDash
+		{
+			IsActive = true;
+			Parry = false;
+			state = "DASH";
+			mask_index = sprite_index;
+			if(kUp)
+			{
+				dir = point_direction(x,y,x,y - 20);	
+			
+				repeat(10)
+				{
+					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
+			           direction = 90 + random_range(-45, 45); 
+				}
+			}
+			else if (kDown)
+			{
+				dir = point_direction(x,y,x,y + 20);
+	
+				repeat(10)
+				{
+					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
+			           direction = 90 + random_range(-45, 45); 
+				}
+			}
+			else if (kLeft)
+			{
+				dir = point_direction(x,y,x - 20,y);	
+				repeat(10)
+				{
+					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
+			         direction = 180 + random_range(-45, 45); 
+				}
+			}
+			else if (kRight)
+			{
+				dir = point_direction(x,y,x + 20,y);	
+				repeat(10)
+				{
+					with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
+			        direction = 0 + random_range(-45, 45); 
+				}
+			}
+			else
+			{
+				if facing == RIGHT
+				{
+					dir = point_direction(x,y,x + 20,y);
+					repeat(10)
+					{
+						with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
+						direction = 0 + random_range(-45, 45); 
+					}
+				}
+				else
+				{
+					dir = point_direction(x,y,x - 20,y);
+					repeat(10)
+					{
+						with (instance_create(x + random_range(-8, 8), bbox_bottom, oParticle))
+					    direction = 180 + random_range(-45, 45); 
+					}
+				}
+			}
+		
+		}	
+}
+
 //Audio
 audio_listener_position(x,y,0);
