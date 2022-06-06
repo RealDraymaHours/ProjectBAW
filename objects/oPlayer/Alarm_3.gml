@@ -3,7 +3,7 @@
 state = "IDLE";
 isDashing = false;
 IsActive = false;
-
+solid = false;
 mask_index = sPlayerHitbox;
 
 ComboReset();

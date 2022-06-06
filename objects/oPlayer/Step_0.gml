@@ -16,12 +16,12 @@ kDash		 = keyboard_check(kMyDash);
 kAttackHold = keyboard_check_pressed(kMyAttackLight);
 kAttack = keyboard_check_released(kMyAttackLight);
 
-kGrab = keyboard_check(ord("D"));
+kGrab = keyboard_check_pressed(ord("D"));
 
 //kRageArt     = keyboard_check(kMyRageArt);
 #endregion
 
-if ((!Staggered) && (!IsActive))
+if ((!global.Staggered) && (!IsActive))
 {
 #region MOVEMENT
 		///////////////////////////////////////////////////////////////////////////////
@@ -254,7 +254,8 @@ else
 				state = "CHARGE";
 				IsAttacking = true;
 				charge += 1;
-			
+				if charge == 35{audio_play_sound(EquipSomething, 1000, false);}
+				
 				if ((kAttack) && (charge >= 40))
 				{
 					state = "CHARGEATTACK";
@@ -264,9 +265,11 @@ else
 					ComboCounter++;
 					IsActive = true;
 					
+					audio_play_sound(PlayerSoulWeapon1, 1000, false);
+					
 					logic_attack_charge()
 				}
-				else if kAttack
+				else if ((kAttack) || (!onGround)) 
 				{				
 					state = "ATTACK";
 					ComboAdd(3,1);		
@@ -274,9 +277,11 @@ else
 					charge = 0;
 					ComboCounter++;
 					IsActive = true;
+					
+					audio_play_sound(PlayerSoulWeapon1, 1000, false);
+					
 					logic_attack();
-				}	
-				
+				}			
 				if(kDash) 
 				{
 					image_index = 0;	
@@ -305,6 +310,7 @@ else
 			{
 				DashX = mouse_x;
 				DashY = mouse_y;
+				solid = true;
 				Duration = 4;
 
 						if(kUp)
@@ -357,7 +363,7 @@ else
 		break;
 		case("PARRY"):
 			h = 0;
-			v = 0;
+			v = 0;		
 			if Parried{state = "IDLE";}
 		break;
 		case("PARRIED"):
@@ -368,7 +374,7 @@ else
 }
 	
 	//Tacking damage
-	if Staggered
+	if global.Staggered
 	{
 		Parry = false;
 		if alarm[1] == -1{alarm[1] = 20;}
@@ -378,9 +384,11 @@ else
 	if global.Health < 0.01
 	{
 		state = "DEATH";
+		instance_destroy();
 		speed = 0;
 		h = 0;
 		v = 0;
+		room_restart();
 	}
 
 
@@ -396,6 +404,8 @@ if (flashAlpha > 0)
 	flashAlpha -= 0.1;	
 }
 	
+
+/*
 function player_dash()
 {
 		if CanDash
@@ -466,6 +476,6 @@ function player_dash()
 		
 		}	
 }
-
+*/
 //Audio
 audio_listener_position(x,y,0);

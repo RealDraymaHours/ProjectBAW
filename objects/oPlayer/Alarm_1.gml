@@ -1,2 +1,2 @@
 /// @description Un-stagger
-Staggered = false;
+global.Staggered = false;

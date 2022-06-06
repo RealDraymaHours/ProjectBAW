@@ -8,3 +8,9 @@ if (flashAlpha > 0)
 {
 	flashAlpha -= 0.1;	
 }
+
+if Knockback
+{
+	move_contact_solid(KnockbackDirection, KnockbackStrenght);
+}
+

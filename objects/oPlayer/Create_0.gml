@@ -72,7 +72,7 @@ DistanceToBoss = 0;
 DashX = 0;
 DashY = 0;
 isDashing = false;
-CanDash = true;
+CanDash = false;
 
 // Facings
 RIGHT =  1;
@@ -137,4 +137,5 @@ kMyAttackHeavy = ord("D");
 kMyRageArt     = ord("A");
 
 //LoadButtonMapping();
+alarm[4] = 20;
 

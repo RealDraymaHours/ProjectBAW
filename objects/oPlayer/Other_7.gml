@@ -32,7 +32,8 @@ else
 	}	
 }
 
-if ((state == "PARRY") || (state == "PARRIED"))
+if ((state == "PARRY") || (state == "PARRIED") || (state == "RIPOST"))
 {
 	state = "IDLE";	
+	active = false;
 }

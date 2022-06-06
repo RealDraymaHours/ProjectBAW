@@ -55,6 +55,9 @@ switch (state) {
 	case "PARRY":
 		sprite_index = sParry;
 	break;
+	case "RIPOST":
+		sprite_index = sPlayerRipost;
+	break;
 	case "PARRIED":
 		sprite_index = sStaggered;
 	break;
@@ -108,10 +111,13 @@ switch (state) {
 		sprite_index = sPlayerGrab;
 		ComboForceEnd();
 	break;
+	case("STAGGERED"):
+		sprite_index = sPlayerStaggered;
+	break;
 }
 // Draw player
 
-if !Staggered
+if !global.Staggered
 {	
 	if state == "DASH"
 	{

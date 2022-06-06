@@ -6,6 +6,10 @@ Invunerable = false;
 
 flashAlpha = 0;
 
+Parried = false;
+
+active = false;
+
 KnockbackDirection = 0;
 KnockbackStrenght = 0;
 
