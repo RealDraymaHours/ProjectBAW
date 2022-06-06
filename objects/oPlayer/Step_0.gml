@@ -110,6 +110,7 @@ if ((!global.Staggered) && (!IsActive))
        
 		// Wall jump
 		if (kJump && cLeft && !onGround) {
+			play_player_jump();
 		    // Stretch sprite
 		    xscale = 0.66;
 		    yscale = 1.33;     
@@ -126,6 +127,7 @@ if ((!global.Staggered) && (!IsActive))
 		}
 
 		if (kJump && cRight && !onGround) {
+			play_player_jump();
 		    // Stretch sprite
 		    xscale = 0.66;
 		    yscale = 1.33;    
@@ -143,6 +145,7 @@ if ((!global.Staggered) && (!IsActive))
   
 		// Jump
 		if (kJump && onGround) {
+			play_player_jump();
 			ComboReset();
 		    if (onGround || (!cRight && !cLeft)) {
 		        // Stretch sprite 

@@ -8,16 +8,7 @@ function player_damage(dmg)
 		global.Staggered = true;
 		CameraShake(8,8);
 		
-		rnd = irandom(1);
-		switch(rnd)
-		{
-			case(0):
-				audio_play_sound(OKA_Slash1, 1000, false);
-			break;
-			case(1):
-				audio_play_sound(OKA_Slash3, 1000, false);
-			break;
-		}		
+		play_player_damage();
 		repeat(5)
 		{
 			instance_create(oPlayer.x,oPlayer.y,oStrikeEffect);	
@@ -35,7 +26,7 @@ function player_damage(dmg)
 			instance_create(oPlayer.x,oPlayer.y,oParryEffect);	
 		}
 		CameraShake(8,8);
-		audio_play_sound(PlayerParryWIP, 1000, false);
+		play_parry();
 	}
 	
 	instance_destroy();

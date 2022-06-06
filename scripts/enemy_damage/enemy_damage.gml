@@ -23,19 +23,6 @@ function enemy_damage(enemy, dmg)
 			instance_create(x,y,oStrikeEffect);	
 		}
 	
-		rnd = irandom(2);
-	
-		switch(rnd)
-		{
-			case(0):
-				audio_play_sound(PlayerWeaponHit1, 1000, false);
-			break;
-			case(1):
-				audio_play_sound(PlayerWeaponHit2, 1000, false);
-			break;
-			case(2):
-				audio_play_sound(PlayerWeaponHit3, 1000, false);
-			break;
-		}
+	play_enemy_damage();
 	}
 }
