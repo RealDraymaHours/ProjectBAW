@@ -17,3 +17,8 @@ switch(state)
 		sprite_index = sRockthrowerThrowReset;
 	break;
 }
+
+if Health < 0
+{
+ instance_destroy();	
+}
