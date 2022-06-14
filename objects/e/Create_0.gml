@@ -7,6 +7,7 @@ Invunerable = false;
 flashAlpha = 0;
 
 Parried = false;
+Parry = false;
 
 active = false;
 

@@ -1,6 +1,11 @@
 if MoveBack
 {
 	oPlayer.state = "IDLE";
+	oPlayer.hspeed = 0;
+	oPlayer.h = 0;
+	oPlayer.v = 0;
+	oPlayer.vspeed = 0;
+	oPlayer.IsActive = false;
 	instance_destroy();	
 }
 else if Grabbed

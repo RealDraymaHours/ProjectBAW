@@ -76,7 +76,7 @@ function logic_attack_charge()
 	if ComboCounter != -1
 	{
 		hitbox = instance_create(x,y,oPDZ);	
-		
+		hitbox.charge = true;
 		
 			if facing == RIGHT
 			{

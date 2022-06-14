@@ -7,6 +7,7 @@ sJumpU = sPlayerJumpU;
 sSlide = sPlayerSlide;
 sDash = sPlayerDash;
 sStaggered = sPlayerStaggered;
+sParried = sPlayerBaseParried;
 
 sBase1 = sPlayerBaseCombo1;
 sBase2 = sPlayerBaseCombo2;
@@ -18,7 +19,8 @@ sGroundUp = sPlayerBaseCombo1;
 sAirUp = sPlayerBaseCombo1;
 
 
-draw_text_color(x-100,y-100,state,c_white,c_white,c_white,c_white,1);
+draw_text_color(x-100,y-50,state,c_white,c_white,c_white,c_white,1);
+draw_text_color(x-100,y-80,ComboCounter,c_white,c_white,c_white,c_white,1);
 //sParry = sPlayerParry;
 //sDeath = sPlayerDeath;
 
@@ -59,12 +61,12 @@ switch (state) {
 		sprite_index = sPlayerRipost;
 	break;
 	case "PARRIED":
-		sprite_index = sStaggered;
+		sprite_index = sParried;
 	break;
 	case "ATTACK":
 		if !onGround
 		{
-			image_speed = 1.5;
+			image_speed = 1.2;
 		}
 		else
 		{

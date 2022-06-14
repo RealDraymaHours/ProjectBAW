@@ -1,5 +1,5 @@
 /// @description Combo's
-if ((IsActive) && (state != "CHARGE"))
+if ((IsActive) && (state != "CHARGE") && (state != "HOOK"))
 {
 	if ComboEnd()
 	{
@@ -19,6 +19,10 @@ if ((IsActive) && (state != "CHARGE"))
 		alarm[2] = 30;
 	}
 
+}
+else if state == "HOOK"
+{
+	ComboReset();	
 }
 else
 {
