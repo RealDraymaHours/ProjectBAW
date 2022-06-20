@@ -10,6 +10,7 @@ Parried = false;
 Parry = false;
 
 active = false;
+Track = true;
 
 KnockbackDirection = 0;
 KnockbackStrenght = 0;

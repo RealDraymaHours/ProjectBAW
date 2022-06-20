@@ -373,6 +373,15 @@ else
 			h = 0;
 			v = 0;
 		break;
+		case("RIPOST"):
+			if kGrab
+			{
+				state = "PARRY";	
+				Parry = true;
+				Parried = false;
+				image_index = 0;	
+			}
+		break;
 	}
 }
 	
@@ -381,6 +390,14 @@ else
 	{
 		Parry = false;
 		if alarm[1] == -1{alarm[1] = 20;}
+		if kGrab
+		{
+				global.Staggered = false;
+				state = "PARRY";	
+				Parry = true;
+				Parried = false;
+				image_index = 0;	
+		}
 	}
 
 	//dying

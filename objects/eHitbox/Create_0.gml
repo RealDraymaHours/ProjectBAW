@@ -10,4 +10,4 @@ KnockbackDirection = 0;
 KnockbackStrenght = 2;
 KnockbackTime = 10;
 
-alarm[0] = 1;
+alarm[0] = 4;

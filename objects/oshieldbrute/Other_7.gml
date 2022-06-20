@@ -1,25 +1,27 @@
-if sprite_index = sShieldBruteBlock
-{
-	
-}
-else
-{
-	
-}
-
 switch(sprite_index)
 {
 	case(sShieldBruteBlock):
-	case(sShieldBruteAttack):
+	case(sShieldBruteAttackEnd):
+	case(sShieldBruteParried):
 		sprite_index = sShieldBruteIdle;
 		Parry = false;
+		Parried = false;
+		Track = true;
 	break;
-	case(sShieldBruteIdle):
+	case(sShieldBruteAttackBegin):	
+		create_enemy_hitbox_noknockback(self, 1,sShieldBruteAttackHitbox);
+		Parry = false;
+		sprite_index = sShieldBruteAttackEnd;
+		CameraShake(2,4);
+		audio_play_sound(PlayerSoulWeapon1, 1000, false);
+	break;
+	case(sShieldBruteIdle):		
 		sprite_index = sShieldBruteBlock;
 		Parry = true;
 	break;
 	case(sShieldBruteRipost):
-		sprite_index = sShieldBruteAttack;
+		sprite_index = sShieldBruteAttackBegin;
+		Track = false;
 		Parry = false;
 		state = "IDLE";
 	break;

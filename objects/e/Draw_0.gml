@@ -1,12 +1,15 @@
 draw_self();
 
-if p.x > x
+if Track
 {
-	image_xscale = 1;
-}
-else
-{
-	image_xscale = -1;
+	if (p.x > x)
+	{
+		image_xscale = 1;
+	}
+	else
+	{
+		image_xscale = -1;
+	}
 }
 
 if(flashAlpha > 0)

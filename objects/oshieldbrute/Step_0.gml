@@ -8,3 +8,7 @@ if state == "RIPOST"
 {
 	sprite_index = sShieldBruteRipost;
 }
+else if Parried
+{
+	sprite_index = sShieldBruteParried;	
+}

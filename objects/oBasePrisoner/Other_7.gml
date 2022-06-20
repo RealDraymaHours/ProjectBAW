@@ -1,7 +1,17 @@
 switch(state)
 {
 	case("ATTACK"):
-		if distance_to_object(p) > 5{state = "RUN"}	
+		if sprite_index = sBasePrisonerSlashBegin
+		{			
+			create_enemy_hitbox_noknockback(self,1,sBasePrisonerSlashHitbox);			
+					
+			audio_play_sound(PlayerSoulWeapon1, 1000, false);
+			sprite_index = sBasePrisonerSlashEnd;
+		}
+		else 
+		{
+			state = "IDLE";	
+		}
 	break;
 	case("DEATH"):
 		instance_destroy();

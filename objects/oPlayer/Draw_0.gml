@@ -13,6 +13,7 @@ sBase1 = sPlayerBaseCombo1;
 sBase2 = sPlayerBaseCombo2;
 sBase3 = sPlayerBaseCombo3;
 
+
 sChargeAttack = sPlayerBaseChargedAttack;
 
 sGroundUp = sPlayerBaseCombo1;
@@ -20,7 +21,7 @@ sAirUp = sPlayerBaseCombo1;
 
 
 draw_text_color(x-100,y-50,state,c_white,c_white,c_white,c_white,1);
-draw_text_color(x-100,y-80,ComboCounter,c_white,c_white,c_white,c_white,1);
+draw_text_color(x-100,y-80,global.Health,c_white,c_white,c_white,c_white,1);
 //sParry = sPlayerParry;
 //sDeath = sPlayerDeath;
 
@@ -58,7 +59,7 @@ switch (state) {
 		sprite_index = sParry;
 	break;
 	case "RIPOST":
-		sprite_index = sPlayerRipost;
+		sprite_index = sRipost;
 	break;
 	case "PARRIED":
 		sprite_index = sParried;

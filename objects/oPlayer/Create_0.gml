@@ -17,6 +17,8 @@ IsActive = false;
 charge = 0;
 
 
+sRipost = sPlayerRipost;
+
 // Collision below
 onGround = false;
 

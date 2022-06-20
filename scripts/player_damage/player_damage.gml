@@ -18,7 +18,19 @@ function player_damage(dmg)
 	else if oPlayer.Parry
 	{
 		oPlayer.state = "RIPOST";
-		oPlayer.Parry = false;
+		rnd = irandom(2);
+		switch(rnd)
+		{
+			case(0):
+				oPlayer.sRipost = sPlayerRipost;
+			break;
+			case(1):
+				oPlayer.sRipost = sPlayerRipost2;
+			break;
+			case(2):
+				oPlayer.sRipost = sPlayerRipost3;
+			break;
+		}
 		Caster.Parried = true;
 		oPlayer.image_index = 0;
 		repeat(5)

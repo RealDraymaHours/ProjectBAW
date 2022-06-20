@@ -40,4 +40,5 @@ if ((state == "PARRY") || (state == "PARRIED") || (state == "RIPOST"))
 {
 	state = "IDLE";	
 	active = false;
+	Parry = false;
 }
