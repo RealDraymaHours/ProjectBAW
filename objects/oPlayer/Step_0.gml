@@ -15,6 +15,9 @@ kDash		 = keyboard_check(kMyDash);
 
 kAttackHold = keyboard_check_pressed(kMyAttackLight);
 kAttack = keyboard_check_released(kMyAttackLight);
+kSpecial1 = keyboard_check(ord("Q"));
+kSpecial2 = keyboard_check(ord("W"));
+kSpecial3 = keyboard_check(ord("E"));
 
 kGrab = keyboard_check_pressed(ord("D"));
 
@@ -233,6 +236,24 @@ if ((!global.Staggered) && (!IsActive))
 			state = "CHARGE";
 			IsActive = true;				
 		}	
+		else if ((kSpecial1 ) && (state != "ATTACK") && (special1Cost <= global.Mana))
+		{
+			state = "SPECIAL1";
+			global.Mana -= special1Cost;
+			IsActive = true;
+		}
+		else if ((kSpecial2 ) && (state != "ATTACK") && (special2Cost <= global.Mana))
+		{
+			state = "SPECIAL2";
+			global.Mana -= special2Cost;
+			IsActive = true;
+		}
+		else if ((kSpecial3 ) && (state != "ATTACK") && (special3Cost <= global.Mana))
+		{
+			state = "SPECIAL3";
+			global.Mana -= special3Cost;
+			IsActive = true;
+		}
 	}
 #endregion
 #region DASH
@@ -294,10 +315,10 @@ else
 				}
 		break;
 		case("CHARGEATTACK"):
-			h = 0;
-			v = 0;
-		break;
 		case("ATTACK"):
+		case("SPECIAL1"):
+		case("SPECIAL2"):
+		case("SPECIAL3"):
 			h = 0;
 			v = 0;
 		break;

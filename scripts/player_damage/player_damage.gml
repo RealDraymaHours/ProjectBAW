@@ -8,6 +8,8 @@ function player_damage(dmg)
 		global.Staggered = true;
 		CameraShake(8,8);
 		
+		global.Mana -= ManaGain;
+		
 		play_player_damage();
 		repeat(5)
 		{
@@ -37,6 +39,10 @@ function player_damage(dmg)
 		{
 			instance_create(oPlayer.x,oPlayer.y,oParryEffect);	
 		}
+		
+		global.Mana += ManaGain;
+		oGame.alarm[0] = 30;
+		
 		CameraShake(8,8);
 		play_parry();
 	}

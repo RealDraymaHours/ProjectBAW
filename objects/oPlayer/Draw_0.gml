@@ -13,6 +13,10 @@ sBase1 = sPlayerBaseCombo1;
 sBase2 = sPlayerBaseCombo2;
 sBase3 = sPlayerBaseCombo3;
 
+sSpecial1 = sPlayerBaseChargedAttack;
+sSpecial2 = sPlayerBaseChargedAttack;
+sSpecial3 = sPlayerBaseChargedAttack;
+
 
 sChargeAttack = sPlayerBaseChargedAttack;
 
@@ -20,8 +24,7 @@ sGroundUp = sPlayerBaseCombo1;
 sAirUp = sPlayerBaseCombo1;
 
 
-draw_text_color(x-100,y-50,state,c_white,c_white,c_white,c_white,1);
-draw_text_color(x-100,y-80,global.Health,c_white,c_white,c_white,c_white,1);
+draw_text_color(x-100,y-80,global.Mana,c_white,c_white,c_white,c_white,1);
 //sParry = sPlayerParry;
 //sDeath = sPlayerDeath;
 
@@ -104,6 +107,18 @@ switch (state) {
 			sprite_index = sPlayerBaseCharged;
 		}
 	break;
+	case("SPECIAL1"):
+		sprite_index = sSpecial1;
+		ComboReset();
+	break;
+	case("SPECIAL2"):
+		sprite_index = sSpecial2;
+		ComboReset();
+	break;
+	case("SPECIAL3"):
+		sprite_index = sSpecial3;
+		ComboReset();
+	break;
 	case "CHARGEATTACK":
 		if ComboCounter != -1
 		{
@@ -112,7 +127,7 @@ switch (state) {
 	break;
 	case("HOOK"):
 		sprite_index = sPlayerGrab;
-		ComboForceEnd();
+		ComboReset();
 	break;
 	case("STAGGERED"):
 		sprite_index = sPlayerStaggered;
