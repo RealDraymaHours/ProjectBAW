@@ -112,7 +112,7 @@
     "eventStubScript": null,
     "parent": {"name":"sNostro1CloakCombo161","path":"sprites/sNostro1CloakCombo161/sNostro1CloakCombo161.yy",},
     "resourceVersion": "1.4",
-    "name": "sNostro1CloakCombo1",
+    "name": "sNostro1CloakCombo161",
     "tags": [],
     "resourceType": "GMSequence",
   },

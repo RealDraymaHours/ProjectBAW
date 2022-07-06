@@ -23,7 +23,7 @@ if Parried
 
 if ((Health <= 0) && (state != "DEATH"))
 {
-	state = "DEATH";
+	instance_destroy();
 	image_index = 0;
 }
 

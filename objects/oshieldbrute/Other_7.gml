@@ -9,7 +9,7 @@ switch(sprite_index)
 		Track = true;
 	break;
 	case(sShieldBruteAttackBegin):	
-		create_enemy_hitbox_noknockback(self, 1,sShieldBruteAttackHitbox);
+		create_enemy_hitbox_noknockback(self, 1,sShieldBruteAttackHitbox, false);
 		Parry = false;
 		sprite_index = sShieldBruteAttackEnd;
 		CameraShake(2,4);

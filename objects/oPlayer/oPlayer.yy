@@ -10,7 +10,7 @@
     "name": "sPlayerHitbox",
     "path": "sprites/sPlayerHitbox/sPlayerHitbox.yy",
   },
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "p",
     "path": "objects/p/p.yy",

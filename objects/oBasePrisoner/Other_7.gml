@@ -3,7 +3,7 @@ switch(state)
 	case("ATTACK"):
 		if sprite_index = sBasePrisonerSlashBegin
 		{			
-			create_enemy_hitbox_noknockback(self,1,sBasePrisonerSlashHitbox);			
+			create_enemy_hitbox_noknockback(self,1,sBasePrisonerSlashHitbox, false);			
 					
 			audio_play_sound(PlayerSoulWeapon1, 1000, false);
 			sprite_index = sBasePrisonerSlashEnd;

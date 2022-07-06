@@ -16,6 +16,13 @@ switch(state)
 	case("CASTTURRET"):
 		sprite_index = sNostro1Cast;
 	break;
+	case("CASTPILLAR"):
+		sprite_index = sNostro1Cast;
+	break;
+	case("KICK"):
+		Track = false;
+		sprite_index = sNostro1CloakKick1;
+	break;
 	case("BASECOMBO"):
 		Track = false;
 		switch(subState)
@@ -42,6 +49,9 @@ switch(state)
 			break;
 			case("BASE3"):
 				sprite_index = sNostro1CloakCombo3Parried;
+			break;
+			case("KICK"):
+				state = "KICK";
 			break;
 		}
 	break;

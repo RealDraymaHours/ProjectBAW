@@ -20,7 +20,7 @@ sGroundUp = sPlayerBaseCombo1;
 sAirUp = sPlayerBaseCombo1;
 
 
-draw_text_color(x-100,y-50,state,c_white,c_white,c_white,c_white,1);
+draw_text_color(x-100,y-50,global.StopMoving,c_white,c_white,c_white,c_white,1);
 draw_text_color(x-100,y-80,global.Health,c_white,c_white,c_white,c_white,1);
 //sParry = sPlayerParry;
 //sDeath = sPlayerDeath;

@@ -82,7 +82,7 @@ LEFT  = -1;
 YS = 0;
 
 // Initialize properties
-state  = "IDLE"
+state  = "IDLE";
 facing = image_xscale; // Change xscale in editor to adjust initial facing
 
 // For squash + stretch

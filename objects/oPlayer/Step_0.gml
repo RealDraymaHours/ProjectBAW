@@ -23,6 +23,9 @@ kGrab = keyboard_check_pressed(ord("D"));
 
 if ((!global.Staggered) && (!IsActive))
 {
+	
+if !global.StopMoving
+{
 #region MOVEMENT
 		///////////////////////////////////////////////////////////////////////////////
 		// Which form of accel/fric to apply
@@ -184,7 +187,12 @@ if ((!global.Staggered) && (!IsActive))
 		yscale = Approach(yscale, 1, 0.05);
 
 #endregion
-	
+}
+else
+{
+	h = 0;
+	v = 0;
+}
 //Attacking
 
 #region GRAB

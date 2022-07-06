@@ -2,5 +2,17 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_damage_noparry(dmg)
 {
-
+if ((!global.Staggered) && (oPlayer.state != "DASH"))
+	{
+		global.Health -= dmg;
+		global.Staggered = true;
+		CameraShake(8,8);
+		
+		play_player_damage();
+		repeat(5)
+		{
+			instance_create(oPlayer.x,oPlayer.y,oStrikeEffect);	
+		}
+		
+	}
 }

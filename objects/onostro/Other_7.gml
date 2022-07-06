@@ -1,4 +1,4 @@
-rnd = irandom(1);
+rnd = irandom(3);
 switch(state)
 {
 	case("IDLE"):
@@ -13,10 +13,22 @@ switch(state)
 				subState = "CAST";
 				instance_create(irandom_range(x-50,x+50),y-40,oNostroLightTurret);
 			break;
+			case(2):
+				state = "CASTPILLAR";
+				subState = "CAST";
+				
+				instance_create_depth(p.x, y+49, p.depth - 100,oNostroLightPillar);
+			break;
+			case(3):
+				state = "KICK";
+				subState = "KICK";
+			break;
 		}
 		
 		flipCheck();
 	break;
+	case("KICK"):
+	case("CASTPILLAR"):
 	case("CASTTURRET"):
 		state = "IDLE";
 		subState = "IDLE";

@@ -1,0 +1,1 @@
+moveToPlayer = true;
