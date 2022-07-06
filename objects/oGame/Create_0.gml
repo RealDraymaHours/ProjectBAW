@@ -3,7 +3,9 @@
 global.Health = 5;
 global.MaxHealth = 5;
 global.Staggered = false;
-global.Mana = 0;
+
+global.ManaMultiplier = 1;
+global.Mana = 100;
 global.MaxMana = 100;
 
 global.StopMoving = false;

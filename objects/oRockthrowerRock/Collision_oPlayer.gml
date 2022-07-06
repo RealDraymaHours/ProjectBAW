@@ -5,4 +5,5 @@ if active
 else
 {
 	move_towards_point(oRockthrower.x, oRockthrower.y, 8);
+	
 }

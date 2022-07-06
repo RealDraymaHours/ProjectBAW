@@ -1,4 +1,5 @@
 Damage = 0;
+ManaGain = 0;
 
 Knockback = false;
 

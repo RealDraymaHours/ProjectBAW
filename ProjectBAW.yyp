@@ -173,6 +173,7 @@
     {"id":{"name":"sPlayerRipost3","path":"sprites/sPlayerRipost3/sPlayerRipost3.yy",},"order":15,},
     {"id":{"name":"play_bonk","path":"scripts/play_bonk/play_bonk.yy",},"order":3,},
     {"id":{"name":"sNostro1CloakCombo3Parried","path":"sprites/sNostro1CloakCombo3Parried/sNostro1CloakCombo3Parried.yy",},"order":12,},
+    {"id":{"name":"logic_special","path":"scripts/logic_special/logic_special.yy",},"order":6,},
     {"id":{"name":"TestBawSprite","path":"sprites/TestBawSprite/TestBawSprite.yy",},"order":16,},
     {"id":{"name":"sRockthrowerThrowReset","path":"sprites/sRockthrowerThrowReset/sRockthrowerThrowReset.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

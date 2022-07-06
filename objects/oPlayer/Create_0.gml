@@ -16,6 +16,9 @@ Knockback = false;
 IsActive = false;
 charge = 0;
 
+special1Cost = 10;
+special2Cost = 20;
+special3Cost = 100;
 
 sRipost = sPlayerRipost;
 
