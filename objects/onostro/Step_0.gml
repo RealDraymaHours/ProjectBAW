@@ -51,7 +51,7 @@ switch(state)
 				sprite_index = sNostro1CloakCombo3Parried;
 			break;
 			case("KICK"):
-				state = "KICK";
+				state = "IDLE";
 			break;
 		}
 	break;

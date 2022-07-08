@@ -16,12 +16,14 @@ switch(state)
 			case(2):
 				state = "CASTPILLAR";
 				subState = "CAST";
+				sekiro_warning();
 				
 				instance_create_depth(p.x, y+49, p.depth - 100,oNostroLightPillar);
 			break;
 			case(3):
 				state = "KICK";
 				subState = "KICK";
+				sekiro_warning();
 			break;
 		}
 		
@@ -64,9 +66,12 @@ switch(state)
 				flipCheck();
 			break;
 			case("BASE3"):
+			case("KICK"):
 				subState = "IDLE";
 				state = "IDLE";
 			break;
+			
+
 		}
 	break;
 }

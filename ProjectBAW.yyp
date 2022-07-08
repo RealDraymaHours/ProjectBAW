@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sPlayerStaggered","path":"sprites/sPlayerStaggered/sPlayerStaggered.yy",},"order":6,},
     {"id":{"name":"create_enemy_hitbox","path":"scripts/create_enemy_hitbox/create_enemy_hitbox.yy",},"order":4,},
+    {"id":{"name":"sekiro_warning","path":"scripts/sekiro_warning/sekiro_warning.yy",},"order":5,},
     {"id":{"name":"sNostro1CloakCombo2Parried","path":"sprites/sNostro1CloakCombo2Parried/sNostro1CloakCombo2Parried.yy",},"order":11,},
     {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},"order":0,},
     {"id":{"name":"oPossibleGrapple","path":"objects/oPossibleGrapple/oPossibleGrapple.yy",},"order":3,},
@@ -66,6 +67,7 @@
     {"id":{"name":"oSpring","path":"objects/oSpring/oSpring.yy",},"order":5,},
     {"id":{"name":"sNostroLightTurretSpawn","path":"sprites/sNostroLightTurretSpawn/sNostroLightTurretSpawn.yy",},"order":13,},
     {"id":{"name":"sBasePrisonerSlashBegin","path":"sprites/sBasePrisonerSlashBegin/sBasePrisonerSlashBegin.yy",},"order":6,},
+    {"id":{"name":"sWarning","path":"sprites/sWarning/sWarning.yy",},"order":8,},
     {"id":{"name":"oNostroLightPillar","path":"objects/oNostroLightPillar/oNostroLightPillar.yy",},"order":3,},
     {"id":{"name":"sPlayerParry","path":"sprites/sPlayerParry/sPlayerParry.yy",},"order":10,},
     {"id":{"name":"sRockthrowerIdle","path":"sprites/sRockthrowerIdle/sRockthrowerIdle.yy",},"order":0,},
@@ -102,6 +104,7 @@
     {"id":{"name":"oParryEffect","path":"objects/oParryEffect/oParryEffect.yy",},"order":1,},
     {"id":{"name":"sPlayerJumpD","path":"sprites/sPlayerJumpD/sPlayerJumpD.yy",},"order":2,},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},"order":3,},
+    {"id":{"name":"oWarning","path":"objects/oWarning/oWarning.yy",},"order":8,},
     {"id":{"name":"OKA_Slash1","path":"sounds/OKA_Slash1/OKA_Slash1.yy",},"order":5,},
     {"id":{"name":"sPlayerHitbox","path":"sprites/sPlayerHitbox/sPlayerHitbox.yy",},"order":4,},
     {"id":{"name":"room_goto_transition","path":"scripts/room_goto_transition/room_goto_transition.yy",},"order":3,},

@@ -1,3 +1,5 @@
+DistanceToBoss = distance_to_object(oNostro);
+
 #region CONTROLS
 // Declare Temp Variables /////////////////////////////////////////////////////
 //var kLeft, kRight, kUp, kDown, kJump, kJumpRelease, tempAccel, tempFric;

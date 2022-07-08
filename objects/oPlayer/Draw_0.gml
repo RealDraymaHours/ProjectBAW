@@ -24,7 +24,7 @@ sGroundUp = sPlayerBaseCombo1;
 sAirUp = sPlayerBaseCombo1;
 
 
-draw_text_color(x-100,y-80,global.Mana,c_white,c_white,c_white,c_white,1);
+//draw_text_color(x-100,y-80,global.Mana,c_white,c_white,c_white,c_white,1);
 //sParry = sPlayerParry;
 //sDeath = sPlayerDeath;
 
