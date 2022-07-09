@@ -3,6 +3,7 @@
 Bview_width = 3456/Multiplier;
 Bview_height = 1800/Multiplier;
 
+/*
 if oPlayer.DistanceToBoss >= (Bview_width/2.3)
 {
 	Multiplier -= 0.1;
@@ -11,7 +12,7 @@ else if ((oPlayer.DistanceToBoss <= (Bview_width/2)) && (oPlayer.DistanceToBoss 
 {
 	Multiplier += 0.1;
 }
-
+*/
 
 
 if view_width != Bview_width

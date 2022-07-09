@@ -4,7 +4,7 @@ chunk = 4; //this is how big your chunks will be in pixels
 
 for (i=0;i<ww;i+=chunk) { //we loop 4 pixel at a time all the way across
     for (j=0;j<hh;j+=chunk) { //while picking all the vertical pixels in each column
-        		particle = instance_create(x,y,oDeathParticle); //we create a particle relative to the object, offset by the proper amount
+        		particle = instance_create(x+i,y+j,oDeathParticle); //we create a particle relative to the object, offset by the proper amount
         		particle.spr = sprite_index; //we need to tell the particle which sprite to draw. in this case, it's drawing the sprite of the object that's creating it
         		particle.size = chunk;
         		particle.xx = i; //we'll need the particles to have these values so they can draw the right part of the sprite
@@ -12,7 +12,4 @@ for (i=0;i<ww;i+=chunk) { //we loop 4 pixel at a time all the way across
     }
 }
 
-repeat(5)
-{
-	instance_create(x,y,oPointEffect);
-}
+
