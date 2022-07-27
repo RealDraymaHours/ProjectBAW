@@ -5,5 +5,6 @@
 event_inherited();
 
 
-Health = 5;
+Health = 15;
 
+Poise = 100;

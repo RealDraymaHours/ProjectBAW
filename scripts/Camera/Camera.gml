@@ -19,6 +19,6 @@ function CameraZoom(Amount, Speed)
 
 function CameraReset(Speed)
 {
-	oCamera.Multiplier = 4;
+	oCamera.Multiplier = 10;
 	oCamera.Speed = Speed;
 }

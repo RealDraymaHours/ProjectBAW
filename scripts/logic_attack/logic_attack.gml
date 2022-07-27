@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function logic_attack()
 {
+	global.ManaMultiplier = 1;
 	if ComboCounter != -1
 		{
 			switch(ComboArray[ComboCounter])
@@ -73,6 +74,7 @@ function logic_attack()
 
 function logic_attack_charge()
 {
+	global.ManaMultiplier = 2;
 	if ComboCounter != -1
 	{
 		hitbox = instance_create(x,y,oPDZ);	

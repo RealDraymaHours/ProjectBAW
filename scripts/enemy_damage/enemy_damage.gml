@@ -3,45 +3,44 @@
 function enemy_damage(enemy, dmg)
 {
 	//when enemy is in a parry state then he reposts the player
-		if ((enemy.Parry) && (!charge))
+		if ((enemy.Parry))
 		{
-			oPlayer.alarm[9] = 2;
-			instance_destroy();
+				oPlayer.alarm[9] = 2;
+				state = "PARRIED";
+				active = false;
 			
-			enemy.state = "RIPOST";
-			enemy.image_index = 0;
+				alarm[0] = 60;
 			
-			oGame.alarm[0] = 40;
+				enemy.state = "RIPOST";
+				enemy.image_index = 0;
+				
+				enemy.alarm[11] = enemy.StaggerRegenTime;
+			
+				oGame.alarm[0] = 40;
 		}
 		else
 		{
-		//Damage enemy
-		//if the attacks break is higher than the enemies poise then the enemy gets knocked back
-			if Break > enemy.Poise
-			{
-				enemy.Knockback = true;	
-				enemy.KnockbackDirection = KnockbackDirection;
-				enemy.KnockbackStrenght = KnockbackStrenght;
-			}
+			CallEnemyDamageJustForThisStupidScript(enemy, dmg);
+		}
+}
 
+function CallEnemyDamageJustForThisStupidScript(enemy, dmg)
+{
+	
 			enemy.flashAlpha = 1;
 			enemy.Invunerable = true;
 			enemy.Health -= dmg;
-	
-			alarm[0] = KnockbackTime;
-			CameraShake(2,4);
-	
+			enemy.Stagger += 2;
+			enemy.alarm[11] = enemy.StaggerRegenTime;
+			
+			alarm[0] = 60;
+			CameraShake(2,4);	
 	//make effect
 			repeat(5)
 			{
 				instance_create(x,y,oStrikeEffect);	
 			}
 			
-	//give wrath
-			global.Mana += 10 * global.ManaMultiplier;
-			oGame.alarm[0] = 30;
-	
 	//play audio
-			play_enemy_damage();
-		}
+			play_enemy_damage();	
 }

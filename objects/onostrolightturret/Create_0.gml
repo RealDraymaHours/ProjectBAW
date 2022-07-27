@@ -5,4 +5,5 @@
 event_inherited();
 
 Health = 1;
+Stagger = 0;
 Turret = false;

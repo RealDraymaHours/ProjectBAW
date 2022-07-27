@@ -11,13 +11,13 @@ sParry = sPlayerParry;
 //Abilities
 Parry = false;
 flashAlpha = 0;
-Weapon = "Weapon";
 Knockback = false;
 IsActive = false;
 charge = 0;
+DashEnd = false;
 
-special1Cost = 10;
-special2Cost = 20;
+special1Cost = 60;
+special2Cost = 80;
 special3Cost = 100;
 
 sRipost = sPlayerRipost;
@@ -36,7 +36,8 @@ if (!instance_exists(oCamera))
 m = 0.2;
 
 // Acceleration + friction
-groundAccel = 1.0  * m;
+groundAccel = 1  * m;
+groundAccelRun = 1.0 * m;
 groundFric  = 100.0  * m;
 airAccel    = 0.75 * m;
 airFric     = 100.0 * m;
@@ -127,8 +128,8 @@ audio_listener_orientation(0,1,0,0,0,1);
 
 // Input //////////////////////////////////////////////////////////////////////
 
-kMyLeft        = vk_left;
-kMyRight       = vk_right;
+kMyLeft        = ord("A");
+kMyRight       = ord("D");
 kMyUp          = vk_up;
 kMyDown        = vk_down;
 kMyJump        = vk_space;

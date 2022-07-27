@@ -7,5 +7,7 @@ KnockbackStrenght = 0;
 Knockback = false;
 KnockbackTime = 10;
 
+dmg = 1;
+
 spawnX = x;
 spawnY = y;

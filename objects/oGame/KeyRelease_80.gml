@@ -1,1 +1,2 @@
-CameraZoom(10,10);
+
+global.Health = global.MaxHealth;

@@ -91,8 +91,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Phase1",
-    "path": "folders/Sprites/Bosses/Nostro(Tutorial)/Phase1.yy",
+    "name": "Magic",
+    "path": "folders/Sprites/Bosses/Nostro(Tutorial)/Phase1/Magic.yy",
   },
   "resourceVersion": "1.0",
   "name": "sNostroLightPillarSpawn",

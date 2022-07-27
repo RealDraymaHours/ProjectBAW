@@ -1,10 +1,10 @@
-if global.Mana <= 0
+if global.Mana >= 100
 {
-	global.Mana = 0;	
+	global.Mana = 100;	
 }
 else
 {
-	global.Mana -= 1;	
+	global.Mana += 1;	
 }
 
-alarm[0] = 5;
+alarm[0] = 1;

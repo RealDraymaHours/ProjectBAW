@@ -1,6 +1,7 @@
 
 sIdle = sPlayerIdle;
 sRun = sPlayerRun;
+sRunFast = sPlayerRunFast;
 sJumpD = sPlayerJumpD;
 sJumpM = sPlayerJumpU;//sPlayerJumpM;
 sJumpU = sPlayerJumpU;
@@ -13,7 +14,7 @@ sBase1 = sPlayerBaseCombo1;
 sBase2 = sPlayerBaseCombo2;
 sBase3 = sPlayerBaseCombo3;
 
-sSpecial1 = sPlayerBaseChargedAttack;
+sSpecial1 = sPlayerKenpoBase;
 sSpecial2 = sPlayerBaseChargedAttack;
 sSpecial3 = sPlayerBaseChargedAttack;
 
@@ -24,7 +25,7 @@ sGroundUp = sPlayerBaseCombo1;
 sAirUp = sPlayerBaseCombo1;
 
 
-//draw_text_color(x-100,y-80,global.Mana,c_white,c_white,c_white,c_white,1);
+//draw_text_color(x,y-20,global.Health,c_white,c_white,c_white,c_white,1);
 //sParry = sPlayerParry;
 //sDeath = sPlayerDeath;
 
@@ -36,7 +37,16 @@ switch (state) {
     break;
     
     case "RUN": 
-        sprite_index = sRun;
+		if m = 0.4
+		{
+
+			sprite_index = sRunFast;
+		}
+		else
+		{
+			sprite_index = sRun;
+			
+		}
     break;
 	
 	case "DASH":

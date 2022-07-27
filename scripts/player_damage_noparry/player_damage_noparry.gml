@@ -8,6 +8,11 @@ if ((!global.Staggered) && (oPlayer.state != "DASH"))
 		global.Staggered = true;
 		CameraShake(8,8);
 		
+		if oPlayer.Parry
+		{
+			audio_play_sound(sndGuardbreak,1000,false);
+		}
+		
 		play_player_damage();
 		repeat(5)
 		{

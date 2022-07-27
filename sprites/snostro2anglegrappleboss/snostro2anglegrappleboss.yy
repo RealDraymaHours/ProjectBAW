@@ -1,0 +1,171 @@
+{
+  "bboxMode": 2,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 9,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 115,
+  "bbox_right": 137,
+  "bbox_top": 99,
+  "bbox_bottom": 160,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 256,
+  "height": 256,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"f6d44043-3a74-421b-b6a3-21c2ecd0775b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f6d44043-3a74-421b-b6a3-21c2ecd0775b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"f6d44043-3a74-421b-b6a3-21c2ecd0775b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4026fd89-8b37-4b1b-ac4e-b17be8041952","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4026fd89-8b37-4b1b-ac4e-b17be8041952","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"4026fd89-8b37-4b1b-ac4e-b17be8041952","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b12d3c3e-cbcb-48dc-94e8-f85e794a234a","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b12d3c3e-cbcb-48dc-94e8-f85e794a234a","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"b12d3c3e-cbcb-48dc-94e8-f85e794a234a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2c8a399c-29c5-4bd8-a0fb-8e2e3aca7562","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2c8a399c-29c5-4bd8-a0fb-8e2e3aca7562","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"2c8a399c-29c5-4bd8-a0fb-8e2e3aca7562","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f8293cd1-e611-4517-98a6-6bb97b946ce8","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f8293cd1-e611-4517-98a6-6bb97b946ce8","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"f8293cd1-e611-4517-98a6-6bb97b946ce8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"baedf942-3231-454b-b7eb-b40c26ec8d8b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"baedf942-3231-454b-b7eb-b40c26ec8d8b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"baedf942-3231-454b-b7eb-b40c26ec8d8b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7654d593-70dc-4e82-a7ab-a0a4bf2543b8","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7654d593-70dc-4e82-a7ab-a0a4bf2543b8","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"7654d593-70dc-4e82-a7ab-a0a4bf2543b8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e89ccc7d-18ff-431e-8b71-98e338b15a64","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e89ccc7d-18ff-431e-8b71-98e338b15a64","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"e89ccc7d-18ff-431e-8b71-98e338b15a64","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"72ca5904-f552-42a2-b285-48086759f83b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"72ca5904-f552-42a2-b285-48086759f83b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"72ca5904-f552-42a2-b285-48086759f83b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e75fc93c-4992-4827-8dea-8922c43be86d","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e75fc93c-4992-4827-8dea-8922c43be86d","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"e75fc93c-4992-4827-8dea-8922c43be86d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0c41fb7e-92de-4f2f-8ebd-ee1c96217a07","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c41fb7e-92de-4f2f-8ebd-ee1c96217a07","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"0c41fb7e-92de-4f2f-8ebd-ee1c96217a07","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2f53d445-dad2-4ac2-9509-fc48a542cc06","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2f53d445-dad2-4ac2-9509-fc48a542cc06","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"2f53d445-dad2-4ac2-9509-fc48a542cc06","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b7fec0fa-0506-4879-830c-23a00560875e","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b7fec0fa-0506-4879-830c-23a00560875e","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"b7fec0fa-0506-4879-830c-23a00560875e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"37013cdc-24c5-41b9-838c-155147dc4604","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"37013cdc-24c5-41b9-838c-155147dc4604","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"37013cdc-24c5-41b9-838c-155147dc4604","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3d4502cd-1f5d-42a1-8517-412a3007d4bd","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3d4502cd-1f5d-42a1-8517-412a3007d4bd","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"3d4502cd-1f5d-42a1-8517-412a3007d4bd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"bef24e24-51c7-471c-a7f8-85b22984143d","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"bef24e24-51c7-471c-a7f8-85b22984143d","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"bef24e24-51c7-471c-a7f8-85b22984143d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eb3edd20-1dc2-4382-aeae-97f256fa9b5b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eb3edd20-1dc2-4382-aeae-97f256fa9b5b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"eb3edd20-1dc2-4382-aeae-97f256fa9b5b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"38134451-d638-48c5-9a4e-268b1bac4458","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"38134451-d638-48c5-9a4e-268b1bac4458","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"38134451-d638-48c5-9a4e-268b1bac4458","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7977c0af-afd2-423c-b29a-5de74fa8ecbd","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7977c0af-afd2-423c-b29a-5de74fa8ecbd","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"7977c0af-afd2-423c-b29a-5de74fa8ecbd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c1d0f226-7497-4da2-9f23-ccd32b294692","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c1d0f226-7497-4da2-9f23-ccd32b294692","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"c1d0f226-7497-4da2-9f23-ccd32b294692","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"57c9327c-9ffa-4584-931d-a69366cee1ef","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"57c9327c-9ffa-4584-931d-a69366cee1ef","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"57c9327c-9ffa-4584-931d-a69366cee1ef","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9b9b4456-b8c9-48b8-8dac-0a8e995a5030","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9b9b4456-b8c9-48b8-8dac-0a8e995a5030","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"9b9b4456-b8c9-48b8-8dac-0a8e995a5030","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eea1203d-42e9-456a-a0dc-cd6fa0fbfa15","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eea1203d-42e9-456a-a0dc-cd6fa0fbfa15","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"eea1203d-42e9-456a-a0dc-cd6fa0fbfa15","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ea86ae59-e1b8-40d0-8815-874d4e3e9c89","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ea86ae59-e1b8-40d0-8815-874d4e3e9c89","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"LayerId":{"name":"a5b677a4-316c-441d-a275-d36de86685ee","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","name":"ea86ae59-e1b8-40d0-8815-874d4e3e9c89","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 7.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 24.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"e05ed5f0-2305-4c3f-8a84-0a0692a84cec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6d44043-3a74-421b-b6a3-21c2ecd0775b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"80c2c835-44eb-4f27-8f9d-9dceb6e3b0b6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4026fd89-8b37-4b1b-ac4e-b17be8041952","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"5b1e7655-7327-4774-9937-9745d68cf1df","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b12d3c3e-cbcb-48dc-94e8-f85e794a234a","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"5f5c32cc-5f07-4fd4-8e8c-e0d16d6487b4","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c8a399c-29c5-4bd8-a0fb-8e2e3aca7562","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"a1daab76-237f-459f-8112-b3f4d7db0d38","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8293cd1-e611-4517-98a6-6bb97b946ce8","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"2b16d3cd-003b-4d6c-b9b2-3b0789ec133d","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"baedf942-3231-454b-b7eb-b40c26ec8d8b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"dab5f75b-539c-4d47-a83e-9c8c2b167bd0","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7654d593-70dc-4e82-a7ab-a0a4bf2543b8","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"e2473962-be4f-4088-8c15-51acf7d0cc80","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e89ccc7d-18ff-431e-8b71-98e338b15a64","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"eca8168c-9d8e-40de-86e2-ead227e80685","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"72ca5904-f552-42a2-b285-48086759f83b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"71b8a586-c201-4472-8b9f-53d967a7f5f4","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e75fc93c-4992-4827-8dea-8922c43be86d","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"12d0c1a2-f9de-4abd-ab57-b799c31e11b4","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c41fb7e-92de-4f2f-8ebd-ee1c96217a07","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"f2ec7f07-2864-478e-a8a3-30623d358d57","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f53d445-dad2-4ac2-9509-fc48a542cc06","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"5038d759-a5b0-4bc2-b030-bf3e8c395d79","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7fec0fa-0506-4879-830c-23a00560875e","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"783ce428-a690-4860-ba30-c610b9202575","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37013cdc-24c5-41b9-838c-155147dc4604","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"b653f310-d030-473d-9987-bb9e6e3d2a8b","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d4502cd-1f5d-42a1-8517-412a3007d4bd","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"93bf4c97-70cf-44f6-ab56-6a949c7cbbda","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bef24e24-51c7-471c-a7f8-85b22984143d","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"53f14a28-16d1-407e-b9b9-093be9a1aeed","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb3edd20-1dc2-4382-aeae-97f256fa9b5b","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"d49de4e2-9517-42b7-a684-eb22ed7cf229","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38134451-d638-48c5-9a4e-268b1bac4458","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"4f9e698d-d25b-4c3c-b459-5a8380b98ece","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7977c0af-afd2-423c-b29a-5de74fa8ecbd","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"9ee5c45a-937a-4c7f-b864-942a52a07bc1","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1d0f226-7497-4da2-9f23-ccd32b294692","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"7a44b660-e3dd-4a6e-b62e-3a519e78d84d","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"57c9327c-9ffa-4584-931d-a69366cee1ef","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"b1804d3f-e0ac-47c5-8ee1-400db9118743","Key":21.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9b9b4456-b8c9-48b8-8dac-0a8e995a5030","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"bc7b104c-e478-48e1-847d-cf38904d29b6","Key":22.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eea1203d-42e9-456a-a0dc-cd6fa0fbfa15","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"0a7dcd81-49b8-48a8-89cb-f2a3f6b24bd1","Key":23.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea86ae59-e1b8-40d0-8815-874d4e3e9c89","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 128,
+    "yorigin": 112,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"sNostro2AngleGrappleBoss","path":"sprites/sNostro2AngleGrappleBoss/sNostro2AngleGrappleBoss.yy",},
+    "resourceVersion": "1.4",
+    "name": "sNostro2AngleGrappleBoss",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Hands","resourceVersion":"1.0","name":"a5b677a4-316c-441d-a275-d36de86685ee","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "Grapple",
+    "path": "folders/Sprites/Bosses/Nostro(Tutorial)/Phase2/Grapple.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "sNostro2AngleGrappleBoss",
+  "tags": [],
+  "resourceType": "GMSprite",
+}

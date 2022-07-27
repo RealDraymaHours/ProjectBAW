@@ -1,4 +1,4 @@
 if ((!active) && (!other.Invunerable))
 {
-	enemy_damage_special(other,1);	
+	enemy_damage_special(other,1,4);	
 }

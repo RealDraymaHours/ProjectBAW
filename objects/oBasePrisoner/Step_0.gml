@@ -3,12 +3,13 @@
 
 // Inherit the parent event
 event_inherited();
-
+/*
 if Invunerable
 {
-	state = "STAGGERED";	
+	//state = "STAGGERED";	
 	sprite_index = sBasePrisonerParried;
 }
+*/
 
 if ((state == "STAGGERED") && (Invunerable) && (state != "DEATH"))
 {

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlayerDodge",
-    "path": "sprites/sPlayerDodge/sPlayerDodge.yy",
+    "name": "sPlayerDash",
+    "path": "sprites/sPlayerDash/sPlayerDash.yy",
   },
   "solid": true,
   "visible": true,

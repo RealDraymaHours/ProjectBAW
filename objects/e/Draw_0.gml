@@ -1,6 +1,6 @@
 draw_self();
 
-if Track
+if ((Track) && (instance_exists(p)))
 {
 	if (p.x > x)
 	{

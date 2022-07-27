@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Tools",
+    "path": "folders/Objects/Player/Tools.yy",
   },
   "resourceVersion": "1.0",
   "name": "oHook",

@@ -1,4 +1,5 @@
 DistanceToBoss = distance_to_object(oNostro);
+maxH        = 5.5  * m;
 
 #region CONTROLS
 // Declare Temp Variables /////////////////////////////////////////////////////
@@ -13,15 +14,8 @@ kDown        = keyboard_check(kMyDown);
 kJump        = keyboard_check_pressed(kMyJump);
 kJumpRelease = keyboard_check_released(kMyJump);
 kDash		 = keyboard_check(kMyDash);
-//kParry		 = keyboard_check_pressed(kMyParry);
+kRun = keyboard_check(vk_shift);
 
-kAttackHold = keyboard_check_pressed(kMyAttackLight);
-kAttack = keyboard_check_released(kMyAttackLight);
-kSpecial1 = keyboard_check(ord("Q"));
-kSpecial2 = keyboard_check(ord("W"));
-kSpecial3 = keyboard_check(ord("E"));
-
-kGrab = keyboard_check_pressed(ord("D"));
 
 //kRageArt     = keyboard_check(kMyRageArt);
 #endregion
@@ -42,6 +36,27 @@ if !global.StopMoving
 		    tempFric  = airFric;
 		}
 
+		//Sprint
+		if (kRun)
+		{
+			m = 0.4;			
+			
+			if ((CanDash) && (DashEnd) && (onGround))
+			{
+				instance_destroy();
+				lol = instance_create(x,y,oPlayerDodge);
+				lol.facing = self.facing;
+			}
+		}
+		else
+		{
+			m = 0.2;
+			if onGround
+			{	
+				if !DashEnd{alarm[4] = 40;}
+				DashEnd = true;
+			}
+		}
 		// Stick to wall //////////////////////////////////////////////////////////////
 		if ((!cRight && !cLeft) || onGround) {
 		    canStick = true;
@@ -199,79 +214,14 @@ else
 	v = 0;
 }
 //Attacking
-
-#region GRAB
-	if((kGrab) && (!instance_exists(oHook)))
-	{
-		IsActive = true;
-		if (kDown)
-			{
-				state = "HOOK";
-				Parry = false;
-				//IsAttacking = true;
-				Hook = instance_create(x,y,oHook);
-				Hook.vspeed = 20;
-			}
-			else if ((kLeft) || (kRight))
-			{
-				state = "HOOK";
-				Parry = false;
-				//IsAttacking = true;
-				Hook = instance_create(x,y,oHook);
-				if facing = RIGHT{Hook.hspeed = 20;}else{Hook.hspeed = -20;}
-			}
-			else if (kUp)
-			{
-				state = "HOOK";
-				Parry = false;
-				//IsAttacking = true;
-				Hook = instance_create(x,y,oHook);
-				Hook.vspeed = -20;
-			}
-			else
-			{
-
-				state = "PARRY";
-				Parry = true;
-				Parried = false;
-				image_index = 0;
-			}
-		}
-#endregion
-#region ATTACK
-	if (!ComboEnd())
-	{
-		if ((kAttackHold) && (state != "ATTACK"))
-		{
-			state = "CHARGE";
-			IsActive = true;				
-		}	
-		else if ((kSpecial1 ) && (state != "ATTACK") && (special1Cost <= global.Mana))
-		{
-			state = "SPECIAL1";
-			global.Mana -= special1Cost;
-			IsActive = true;
-		}
-		else if ((kSpecial2 ) && (state != "ATTACK") && (special2Cost <= global.Mana))
-		{
-			state = "SPECIAL2";
-			global.Mana -= special2Cost;
-			IsActive = true;
-		}
-		else if ((kSpecial3 ) && (state != "ATTACK") && (special3Cost <= global.Mana))
-		{
-			state = "SPECIAL3";
-			global.Mana -= special3Cost;
-			IsActive = true;
-		}
-	}
-#endregion
 #region DASH
 		//Dashing
+		/*
 	if(kDash) 
 	{
 		player_dash();
 	}
+	*/
 #endregion
 }
 else if Knockback
@@ -282,48 +232,6 @@ else
 {
 	switch(state)
 	{
-		case("CHARGE"):
-				h = 0;
-				v = 0;
-				state = "CHARGE";
-				IsAttacking = true;
-				charge += 1;
-				if charge == 35{audio_play_sound(EquipSomething, 1000, false);}
-				
-				if ((kAttack) && (charge >= 40))
-				{
-					state = "CHARGEATTACK";
-					ComboAdd(3,1);	
-					image_index = 0;	
-					charge = 0;
-					ComboCounter++;
-					IsActive = true;
-					
-					audio_play_sound(PlayerSoulWeapon1, 1000, false);
-					
-					logic_attack_charge()
-				}
-				else if ((kAttack) || (!onGround)) 
-				{				
-					state = "ATTACK";
-					ComboAdd(3,1);		
-					image_index = 0;	
-					charge = 0;
-					ComboCounter++;
-					IsActive = true;
-					
-					audio_play_sound(PlayerSoulWeapon1, 1000, false);
-					
-					logic_attack();
-				}			
-				if(kDash) 
-				{
-					image_index = 0;	
-					charge = 0;
-					ComboCounter++;
-					player_dash();
-				}
-		break;
 		case("CHARGEATTACK"):
 		case("ATTACK"):
 		case("SPECIAL1"):
@@ -395,24 +303,6 @@ else
 				alarm[3] = Duration;
 			}
 		break;
-		case("PARRY"):
-			h = 0;
-			v = 0;		
-			if Parried{state = "IDLE";}
-		break;
-		case("PARRIED"):
-			h = 0;
-			v = 0;
-		break;
-		case("RIPOST"):
-			if kGrab
-			{
-				state = "PARRY";	
-				Parry = true;
-				Parried = false;
-				image_index = 0;	
-			}
-		break;
 	}
 }
 	
@@ -421,14 +311,6 @@ else
 	{
 		Parry = false;
 		if alarm[1] == -1{alarm[1] = 20;}
-		if kGrab
-		{
-				global.Staggered = false;
-				state = "PARRY";	
-				Parry = true;
-				Parried = false;
-				image_index = 0;	
-		}
 	}
 
 	//dying
@@ -436,6 +318,7 @@ else
 	{
 		state = "DEATH";
 		instance_destroy();
+		global.Health = global.MaxHealth;
 		speed = 0;
 		h = 0;
 		v = 0;

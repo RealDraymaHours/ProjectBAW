@@ -6,7 +6,13 @@ if event_data[?"event_type"] == "sprite event"
 	{
 		case("player_disable_parry"):
 			Parry = false;
-		break;			
+		break;
+		case("player_enable_parry"):
+			Parry = true;
+		break;
+		case("create_KenpoHitbox"):
+			create_player_hitbox(2,1.2,sPlayerKenpoBaseHitbox,3,270,10,true);
+		break;
 	}
 }
 /*

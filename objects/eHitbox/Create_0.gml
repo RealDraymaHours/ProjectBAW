@@ -1,5 +1,7 @@
 Damage = 0;
-ManaGain = 0;
+IsItRight = true;
+
+Stagger = 0;
 
 Knockback = false;
 
